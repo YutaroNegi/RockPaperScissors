@@ -1,6 +1,6 @@
 # README
 
-<p align="center"> Rock Paper Scissors </p>
+<h1 align="center"> ROCK PAPER SCISSORS </h1>
 
 <p align="center"> 
     <a href="#sobre">Sobre</a>
