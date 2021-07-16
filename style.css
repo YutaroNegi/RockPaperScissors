@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+@media (max-width: 480px)
+{
+    .options{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 0;
+        right: 0;
+        position: absolute;
+    }
+}
+
+
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+html { height:100%; }
+body { position:absolute; top:0; bottom:0; right:0; left:0; }
+.bgColor {
+    background-image: linear-gradient(to bottom, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#score {
+    width: 17vh;
+}
+
+#scoreNumber {
+    font-weight: 900;
+    font-size: 72px;
+}
+
+.scoreTextColor {
+    color: hsl(229, 64%, 46%)
+}
+
+#rock{
+    border-style: solid;
+    border-color: hsl(349, 71%, 52%);
+    border-width: 10px;
+}
+
+#paper{
+    border-style: solid;
+    border-width: 10px;
+    border-color: hsl(230, 89%, 62%);
+}
+
+#scissors{
+    border-style: solid;
+    border-width: 10px;
+    border-color: hsl(39, 89%, 49%);
+}
+
+
+button:hover, #playAgain:hover{
+    background-color: gold;
+    cursor: pointer;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+#playAgain{
+    height: 60px;
+    width: 150px;
+    border-style: none;
+}
